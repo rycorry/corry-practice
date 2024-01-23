@@ -1,0 +1,12 @@
+6ced69c update features
+5519b76 update new features AGAIN
+d81d09b again update new features
+c165424 new features update
+6dc98fa test
+94e536f Added line to file 1
+70f32f4 Update New Features
+4e71882 Update gitignore
+344795c Updated Readme
+de69ec9 Update file_2
+413d5fc Update File_1
+b93000c create new files

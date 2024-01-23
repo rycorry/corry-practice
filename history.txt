@@ -1,0 +1,57 @@
+    1  git config --global user.name "Ryan Corry"
+    2  git config --global user.email "rycorry@gmail.com"
+    4  git clone https://github.com/BYUCS235/cs235-assignments.git
+   19  cd /c/Ryan/WINTER_2024/Stat_386/git-practice-rycorry
+   20  git init
+   25  git add file_1.txt
+   26  git add file_2.txt
+   28  git commit -m"create new files"
+   30  git log
+   32  git add file_1.txt
+   33  git commit -m"Update File_1"
+   35  git add file_2.txt
+   36  git commit -m"Update file_2"
+   37  git log
+   39  git add Readme.md
+   40  git commit -m"Updated Readme"
+   41  touch .gitignore
+   42  git add .gitignore
+   43  git commit -m"Update gitignore"
+   46  git add api-keys
+   47  git add api-keys.txt
+   49  git switch -c features
+   50  git log
+   52  cd /c/Ryan/WINTER_2024/Stat_386/git-practice-rycorry/
+   54  git add new_features.txt
+   55  git commit -m"Update New Features"
+   56  git checkout main
+   58  git add file_1.txt
+   59  git commit -m"Added line to file 1"
+   60  git merge features
+   61  /c/Ryan/WINTER_2024/Stat_386/git-practice-rycorry/
+   62  cd /c/Ryan/WINTER_2024/Stat_386/git-practice-rycorry/
+   63  git merge feaetures
+   64  git commit -m"test"
+   66  git log
+   67  cd /c/Ryan/WINTER_2024/Stat_386/git-practice-rycorry/
+   68  git add new_feature.txt
+   69  git add new_features.txt
+   70  git commit -m"new features update"
+   71  git switch features
+   72  git add new_features.txt
+   73  git commit -m"again update new features"
+   74  git switch main
+   75  git merge features "for homework"
+   77  git merge features
+   78  git add new_features.txt
+   79  git commit -m"update new features AGAIN"
+   80  git branch -d features
+   81  git remote add origin <git@github.com:rycorry/corry-practice.git>
+   82  git remote add origin git@github.com:rycorry/corry-practice.git
+   83  git push -u origin main
+   84  git add new_features.txt
+   85  git commit -m"update features"
+   86  git push -u origin main
+   87  git log --online > gitlog.txt
+   88  git log --oneline > gitlog.txt
+   89  history | grep git > history.txt
